@@ -37,7 +37,7 @@ class Jacobi:
                 break
         return next_x, iteration
 
-
+# не рабочий, просто опроверялся
 class Seidel:
 
     @staticmethod
