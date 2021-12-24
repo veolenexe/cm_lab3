@@ -1,31 +1,12 @@
 from algo import *
 
-# метод половинного деления(дихотомии)
-result, iteration = Dichotomies().solve()
+#Якоби
+result, iteration = Jacobi().solve()
 print(result)
 print(iteration)
 
-# метод Ньютона
-result, iteration = Newton().solve()
-print(result)
-print(iteration)
+# метод Гауса-Зейделя не работает, так как сх нет там бесконечный цикл
 
-# метод модифицированный Ньютона
-result, iteration = ModNewton().solve()
-print(result)
-print(iteration)
-
-# метод хорд
-result, iteration = Chord().solve()
-print(result)
-print(iteration)
-
-# метод подвижных хорд
-result, iteration = MovChord().solve()
-print(result)
-print(iteration)
-
-# метод простой итерации
-result, iteration = SipleIteration().solve()
-print(result)
-print(iteration)
+#result, iteration = Seidel().solve()
+#print(result)
+#print(iteration)
